@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine3.9
+FROM amazoncorretto:11-alpine-jdk
 
 EXPOSE 8080
 COPY target/Backend-0.0.1-SNAPSHOT.jar Backend-0.0.1-SNAPSHOT.jar
